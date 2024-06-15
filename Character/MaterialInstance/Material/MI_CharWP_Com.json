@@ -1,0 +1,306 @@
+{
+  "Textures": {
+    "T_DefaultNormalMask_M": "Client/Content/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M",
+    "T_DefaultColorWhite_D": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D",
+    "CV_RampLinearColorAtlas": "Client/Content/Aki/Character/Role/CommonTexture/RTRamp/CV_RampLinearColorAtlas.CV_RampLinearColorAtlas",
+    "T_DefaultMaskGreen_M": "Client/Content/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M",
+    "PM_Diffuse": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D",
+    "PM_Normals": "Client/Content/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M",
+    "R_Noise_A_Mask": "Client/Content/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M",
+    "MainTex": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D",
+    "E_Tex_NoiseTex": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D",
+    "Normal_Roughness_Metallic": "Client/Content/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M",
+    "RampMap": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D",
+    "Ramp": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D",
+    "Second_RGB": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "E_Dissolve_Emission": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "EffectMaskChannel_Vector": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "E_Tex_Speed": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "BaseColor_颜色调节": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.5,
+        "A": 1.0,
+        "Hex": "00FFBC"
+      },
+      "NoiseUV": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "E_Rim_RimColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Second_ScreenObjectUV": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "E_Tex_UVSwitch": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "FresnelRim_RimColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF0000"
+      },
+      "E_Tex_ScaleAndOffset": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "Second_ColorTint": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "ShadowColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "Second_UV": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "E_Rim_Channel": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "Second_Refine": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "SecondTex_UVSwitch": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "E_Dissolve_Channel": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "SolidShadowColor": {
+        "R": 0.5,
+        "G": 0.5,
+        "B": 0.5,
+        "A": 1.0,
+        "Hex": "BCBCBC"
+      },
+      "Noise_UVSwitch": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "E_Tex_Color": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      }
+    },
+    "Scalars": {
+      "ToonRimWidth": 0.05,
+      "RampWidth": 0.5,
+      "E_Rim_RimRange": 0.5,
+      "E_Dither_DitherValue": 1.2,
+      "E_Tex_MaskRange": 1.0,
+      "SolidShadowProcess": 0.2,
+      "FresnelRim_Smooth": 0.0,
+      "RampColorIntensity": 1.0,
+      "RampInt": 1.0,
+      "E_Rim_UseRim": 0.0,
+      "E_Rim_Intensity": 1.0,
+      "Second_HeightRadio": 0.0,
+      "E_Tex_UseTex": 0.0,
+      "E_Dissolve_Smooth": 5.0,
+      "RampShadowOffsetAdjustFactor": 1.0,
+      "E_Dissolve_UseDissolve": 0.0,
+      "FresnelRim_Reverse": 0.0,
+      "RampMaskShadowOffsetStrength": 0.0,
+      "E_Dither_DitherValue2": 1.2,
+      "E_Dissolve_Progress": 0.0,
+      "OpacityIntensity": 1.0,
+      "E_Rim_UseTex": 1.0,
+      "RampProcess": 0.1,
+      "UseRampAdd": 0.0,
+      "NoiseStrength": 1.0,
+      "Effect_Progress": 0.0,
+      "Param": 0.0,
+      "RampColorBlend": 0.5,
+      "RampShadowOffsetPower": 1.0,
+      "Second_Height": 0.0,
+      "FresnelRim_RimRange": 5.0,
+      "Second_UseObjectScreenUV": 0.0,
+      "FlowEffectEdge_Strength": 0.2,
+      "NormalStrength": 1.0,
+      "E_Tex_UseScreenUV": 0.0,
+      "E_Dither_UseDither": 0.0,
+      "RampPosition": 0.5,
+      "E_Dissolve_Multi": 100.0,
+      "E_Tex_UseMask": 0.0,
+      "E_Tex_UseVCMask_Set": 0.0,
+      "MetallicIntensity(Debug)": 1.0,
+      "ShadowWidth": 0.01,
+      "Second_NoiseStrength": 0.15,
+      "RoughnessIntensity(Debug))": 1.0,
+      "E_Tex_Rotation": 0.0,
+      "Noise_UseScreenUV": 0.0,
+      "ShadowProcess": 0.5,
+      "BaseColorIntensity": 1.0,
+      "Second_UseScreenUV": 0.0,
+      "E_Dither_UseDither2": 0.0
+    },
+    "Switches": {},
+    "Properties": {
+      "Metallic": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionNamedRerouteUsage_10",
+        "UseConstant": false,
+        "Constant": 0.0
+      },
+      "Normal": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionNamedRerouteUsage_12",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionNamedRerouteUsage_9",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "WorldPositionOffset": {
+        "Expression": null,
+        "OutputIndex": 1,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "None",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "bCustomAlphaTest": true,
+      "StateId": "2AA74D84-41063077-9AF17BAA-A93D8029",
+      "BasePropertyOverrides": {
+        "bEnableSeparateTranslucency": true,
+        "BlendMode": "BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333,
+        "RenderQueue": 200,
+        "bCustomAlphaTest": true
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

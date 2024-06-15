@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "T_NPCMaleMFace_New_SDF",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 2048,
+        "Y": 2048
+      },
+      "LightingGuid": "C857E246-49867F49-FC8228A8-4182DE79",
+      "CompressionSettings": "TC_BC7",
+      "LODGroup": "TEXTUREGROUP_Character",
+      "Downscale": {
+        "bCooked": true,
+        "Default": 0.0,
+        "Value": 0.0
+      },
+      "SRGB": false
+    },
+    "SizeX": 2048,
+    "SizeY": 2048,
+    "PackedData": 1,
+    "PixelFormat": "PF_BC7",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 4194304,
+          "SizeOnDisk": 4194304,
+          "OffsetInFile": "0x400ACC"
+        },
+        "SizeX": 2048,
+        "SizeY": 2048,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

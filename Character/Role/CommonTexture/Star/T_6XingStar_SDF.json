@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "T_6XingStar_SDF",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 2048,
+        "Y": 2048
+      },
+      "LightingGuid": "70162D27-42282CFC-301F17B4-B583F311",
+      "CompressionSettings": "TC_BC7",
+      "LODGroup": "TEXTUREGROUP_Character",
+      "Downscale": {
+        "bCooked": true,
+        "Default": 0.0,
+        "Value": 0.0
+      },
+      "SRGB": false
+    },
+    "SizeX": 1024,
+    "SizeY": 1024,
+    "PackedData": 1,
+    "PixelFormat": "PF_BC7",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 1048576,
+          "SizeOnDisk": 1048576,
+          "OffsetInFile": "0x100ABA"
+        },
+        "SizeX": 1024,
+        "SizeY": 1024,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

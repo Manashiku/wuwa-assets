@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "CurveLinearColorAtlas",
+    "Name": "CV_RampLinearColorAtlas_UI",
+    "Class": "UScriptClass'CurveLinearColorAtlas'",
+    "Properties": {
+      "TextureSize": 128,
+      "GradientCurves": [
+        {
+          "ObjectName": "CurveLinearColor'UI_CurveBaseRamp'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/RTRamp/BakeRampCurve/UI_CurveBaseRamp.0"
+        },
+        {
+          "ObjectName": "CurveLinearColor'Zhanshi_CurveBaseRamp_Gold'",
+          "ObjectPath": "Client/Content/Aki/Scene/NewGacha/Textures/Zhanshi_CurveBaseRamp_Gold.0"
+        },
+        {
+          "ObjectName": "CurveLinearColor'Zhanshi_CurveBaseRamp_Purple'",
+          "ObjectPath": "Client/Content/Aki/Scene/NewGacha/Textures/Zhanshi_CurveBaseRamp_Purple.0"
+        },
+        {
+          "ObjectName": "CurveLinearColor'Zhanshi_CurveBaseRamp_WeaponGold'",
+          "ObjectPath": "Client/Content/Aki/Scene/NewGacha/Textures/Zhanshi_CurveBaseRamp_WeaponGold.0"
+        },
+        {
+          "ObjectName": "CurveLinearColor'Zhanshi_CurveBaseRamp_WeaponPurple'",
+          "ObjectPath": "Client/Content/Aki/Scene/NewGacha/Textures/Zhanshi_CurveBaseRamp_WeaponPurple.0"
+        },
+        {
+          "ObjectName": "CurveLinearColor'Zhanshi_CurveBaseRamp_WeaponBlue'",
+          "ObjectPath": "Client/Content/Aki/Scene/NewGacha/Textures/Zhanshi_CurveBaseRamp_WeaponBlue.0"
+        },
+        {
+          "ObjectName": "CurveLinearColor'CurveBaseRampYinlin'",
+          "ObjectPath": "Client/Content/Aki/Scene/NewGacha/Textures/CurveBaseRampYinlin.0"
+        },
+        {
+          "ObjectName": "CurveLinearColor'UI_CurveBaseRamp_Monster'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/RTRamp/BakeRampCurve/UI_CurveBaseRamp_Monster.0"
+        }
+      ],
+      "ImportedSize": {
+        "X": 128,
+        "Y": 128
+      },
+      "LightingGuid": "352EA398-4AB45BED-0CAA4E9D-0FE5D3D9",
+      "NeverStream": true
+    },
+    "SizeX": 128,
+    "SizeY": 128,
+    "PackedData": 1,
+    "PixelFormat": "PF_FloatRGBA",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 131072,
+          "SizeOnDisk": 131072,
+          "OffsetInFile": "0x2150C"
+        },
+        "SizeX": 128,
+        "SizeY": 128,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

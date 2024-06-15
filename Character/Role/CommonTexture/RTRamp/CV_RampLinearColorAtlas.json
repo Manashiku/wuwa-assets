@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "CurveLinearColorAtlas",
+    "Name": "CV_RampLinearColorAtlas",
+    "Class": "UScriptClass'CurveLinearColorAtlas'",
+    "Properties": {
+      "TextureSize": 128,
+      "GradientCurves": [
+        {
+          "ObjectName": "CurveLinearColor'Char_CurveBaseRamp'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/RTRamp/BakeRampCurve/Char_CurveBaseRamp.0"
+        },
+        {
+          "ObjectName": "CurveLinearColor'Char_CurveBaseRamp_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/RTRamp/BakeRampCurve/Char_CurveBaseRamp_2.0"
+        },
+        {
+          "ObjectName": "CurveLinearColor'Char_CurveBaseRamp_3'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/RTRamp/BakeRampCurve/Char_CurveBaseRamp_3.0"
+        },
+        {
+          "ObjectName": "CurveLinearColor'Char_CurveBaseRamp_4'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/RTRamp/BakeRampCurve/Char_CurveBaseRamp_4.0"
+        },
+        {
+          "ObjectName": "CurveLinearColor'Char_CurveBaseRamp_5'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/RTRamp/BakeRampCurve/Char_CurveBaseRamp_5.0"
+        },
+        {
+          "ObjectName": "CurveLinearColor'Char_CurveBaseRamp1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/RTRamp/BakeRampCurve/Char_CurveBaseRamp1.0"
+        }
+      ],
+      "ImportedSize": {
+        "X": 128,
+        "Y": 128
+      },
+      "LightingGuid": "2541BCD3-4847EED5-D273C0BD-1AEE5061",
+      "NeverStream": true
+    },
+    "SizeX": 128,
+    "SizeY": 128,
+    "PackedData": 1,
+    "PixelFormat": "PF_FloatRGBA",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 131072,
+          "SizeOnDisk": 131072,
+          "OffsetInFile": "0x20ED8"
+        },
+        "SizeX": 128,
+        "SizeY": 128,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

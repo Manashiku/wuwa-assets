@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "T_6XingStar_D",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 2048,
+        "Y": 2048
+      },
+      "LightingGuid": "B92D749E-44EB1216-0FDA3F95-B6CC0A6D",
+      "CompressionSettings": "TC_BC7",
+      "LODGroup": "TEXTUREGROUP_Character",
+      "Downscale": {
+        "bCooked": true,
+        "Default": 0.0,
+        "Value": 0.0
+      }
+    },
+    "SizeX": 1024,
+    "SizeY": 1024,
+    "PackedData": 1,
+    "PixelFormat": "PF_BC7",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 1048576,
+          "SizeOnDisk": 1048576,
+          "OffsetInFile": "0x0"
+        },
+        "SizeX": 1024,
+        "SizeY": 1024,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 262144,
+          "SizeOnDisk": 262144,
+          "OffsetInFile": "0x100000"
+        },
+        "SizeX": 512,
+        "SizeY": 512,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 65536,
+          "SizeOnDisk": 65536,
+          "OffsetInFile": "0x140000"
+        },
+        "SizeX": 256,
+        "SizeY": 256,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 16384,
+          "SizeOnDisk": 16384,
+          "OffsetInFile": "0x150000"
+        },
+        "SizeX": 128,
+        "SizeY": 128,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 4096,
+          "SizeOnDisk": 4096,
+          "OffsetInFile": "0x21A2"
+        },
+        "SizeX": 64,
+        "SizeY": 64,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 1024,
+          "SizeOnDisk": 1024,
+          "OffsetInFile": "0x31C6"
+        },
+        "SizeX": 32,
+        "SizeY": 32,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 256,
+          "SizeOnDisk": 256,
+          "OffsetInFile": "0x35EA"
+        },
+        "SizeX": 16,
+        "SizeY": 16,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 64,
+          "SizeOnDisk": 64,
+          "OffsetInFile": "0x370E"
+        },
+        "SizeX": 8,
+        "SizeY": 8,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 16,
+          "SizeOnDisk": 16,
+          "OffsetInFile": "0x3772"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 16,
+          "SizeOnDisk": 16,
+          "OffsetInFile": "0x37A6"
+        },
+        "SizeX": 2,
+        "SizeY": 2,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 16,
+          "SizeOnDisk": 16,
+          "OffsetInFile": "0x37DA"
+        },
+        "SizeX": 1,
+        "SizeY": 1,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

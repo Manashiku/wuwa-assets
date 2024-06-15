@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "T_Reflection2_MC",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 256,
+        "Y": 256
+      },
+      "LightingGuid": "7DCC995F-45F17262-9D7D3AAA-2F2057D1",
+      "LODGroup": "TEXTUREGROUP_Character"
+    },
+    "SizeX": 256,
+    "SizeY": 256,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT1",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 32768,
+          "SizeOnDisk": 32768,
+          "OffsetInFile": "0x8898"
+        },
+        "SizeX": 256,
+        "SizeY": 256,
+        "SizeZ": 1
+      }
+    ]
+  }
+]
