@@ -1,0 +1,755 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Char_XinHen",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionReroute_12",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Masked",
+      "ShadingModel": "MSM_ToonCommon",
+      "ShadingModels": {
+        "ShadingModelField": 4096
+      },
+      "bEnableSeparateTranslucency": false,
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithMorphTargets": true,
+      "StateId": "45118D56-45B41E6E-DA43F0A7-1B379E98",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              10320602066761822,
+              437144753708404647,
+              844517753717635502,
+              1728753655793652641,
+              1906245895270251772,
+              3931216199839643699,
+              4233867690209331833,
+              4788805227935442984,
+              5836115622983000112,
+              6089590326538360831,
+              6223930582547336774,
+              7373724133524117907,
+              9350959158588860199,
+              10440718253694289855,
+              11771333297937949003,
+              12255372141568894933,
+              12378322281521524008,
+              12469605895290878141,
+              12857458284290887211,
+              12872300832710975965,
+              13046296479245744370,
+              13102166150533502496,
+              13105825188533243676,
+              13267809266968804830,
+              14454375872182721338,
+              16027902064672436277,
+              16241875183812229893,
+              17048782561307020205,
+              17297916162841885153,
+              17617656028251573784,
+              17720105278762856586,
+              17830941952875676344,
+              17850788162004486002
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "XingHenControl",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SoundWaveInt02",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ShowMask",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dither_DitherValue",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_MaskRange",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ShakeNoiseTilingX",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "XHTimeSpeed",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Intensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Smooth",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_UseDissolve",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Progress",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ShakeNoiseInt",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ShakeNoiseX_Speed",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "XHIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SoundWaveSpeed02",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "UVScale",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SoundWaveInt01",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UseScreenUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dither_UseDither",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Multi",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ShakeNoiseTilingY",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UseMask",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SoundWaveTiling01",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UseVCMask_Set",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_Rotation",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SDFStart",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "XHPower",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "XHMax",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SoundWaveSpeed01",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SoundWaveTiling02",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Rotation Angle (0-1) (S)",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ShakeNoise_YSpeed",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "1F3EB4D1-422395E0-9B1DBCBB-3DD1A0F4",
+              "16803ABD-4E4A605A-0E68E081-332C6668",
+              "6C3A66E4-4364AB2F-C5C02D96-A99048CF",
+              "598D572D-4B7D519A-749529A9-37B85B69",
+              "F83D1627-49E862D1-F4FD2DA3-851D7FF8",
+              "6B5468FC-4DA7D170-DBA83F88-D30EBCD4",
+              "36B62D69-499354C1-7235B5BD-91C81984",
+              "F8A9AC5A-4B87B529-3401BE9E-65BEC216",
+              "33999F9B-4E702FDC-DA1EEFAD-9E3AD524",
+              "832FDAD2-42747957-3F102685-11D63E57",
+              "602470C7-4C1F3968-5ED073BA-70D9C664",
+              "E13ED334-42106D6C-75C3CD91-161CEF61",
+              "AD078B61-4F808C89-89BF408F-72B9E426",
+              "2F6B402C-4B1147B6-71F21994-6B9A2296",
+              "AFCA16CB-44C8EB11-795BE485-C18BE1CB",
+              "46E0D189-48F3F534-B46A1BB2-AEA720DF",
+              "23B89806-4CC7EC7E-44FEAFA3-5433B151",
+              "3C19AE7D-418A194B-7346F284-16E1FF4A",
+              "80FC35A5-40815FBB-BA6DCCA0-3F167B83",
+              "E868DCDD-41531BC6-943BC2AD-880DEFE1",
+              "573804A7-4993B783-790E9889-265535C4",
+              "7D204DE8-440497DE-07106F89-CA8C7C97",
+              "31A810A9-478FE6C1-7F64A691-363EC597",
+              "DC4BFFC7-431D85EF-6FC8B980-2E686538",
+              "C07C4FED-44C3F757-6AEF66BC-7CAD7CF0",
+              "FB1C09A3-4A2AD885-95DD5699-C73C60C5",
+              "B9D3092D-4966C5F7-9077D788-608357F5",
+              "60498330-4C1FC5D8-400582BD-878D8AF0",
+              "2E444ED3-489AD3E6-55D15483-6C284E95",
+              "6F3FCC8B-443B111B-4336EEAA-4773D577",
+              "6DA71B20-4513AF56-0D2E55B5-14956E41",
+              "22F6BEFC-48CB2EB1-2BBB5794-E1A826C4",
+              "1C2DA4DD-4E2B70F0-89DFA2B2-95AFAE23"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              1138672395326729221,
+              3022210449455684886,
+              4886349916308179050,
+              6024476109544759735,
+              8304604905075797527,
+              11158129153130907431,
+              15711732847811738464,
+              16662146597386347289
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "E_Dissolve_Emission",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_Speed",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UVSwitch",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_ScaleAndOffset",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SDFColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Channel",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SDFColor02",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_Color",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "BB2846EA-455C892D-5ECA908C-25B37783",
+              "24F469A0-42C391CD-C620ACAE-485F0781",
+              "9045E155-428A5425-E05F879E-1B7119FE",
+              "BAA80096-4AEA722A-7C810BA7-21087E93",
+              "94E1D316-41446BA3-6063F1A3-DC8EBBF2",
+              "9B722B47-473E83B5-864E40B5-509A0972",
+              "B70C9EFC-47E88C8E-3F4E7A9E-E6633DB5",
+              "6680C3BD-48395515-157BF8A8-ED5BADF4"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              808274885655307101,
+              2038744204860731016,
+              3648316319514555744,
+              7910577373600259789,
+              9958219903135063109,
+              10371715421228879687
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Noise",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "D",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_NoiseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Noise02",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ShakeNoise",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Param",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "B91D0311-41235FEC-F5492486-4CEB6506",
+              "112041D9-4FBB7F26-2F88C4BB-004EC087",
+              "B8834C65-4ABC7031-16D7C087-A1DF5AE3",
+              "5944002B-4EE15A44-83685BAA-C0A70DA0",
+              "89647E23-4C3A9115-DE30DEA8-B3B91968",
+              "AF98D609-494ECACC-975409AF-4AA5B129"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            0.0,
+            0.0,
+            0.0,
+            1.2,
+            1.0,
+            1.0,
+            3.0,
+            1.0,
+            0.0,
+            5.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            3.0,
+            -0.57,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            100.0,
+            1.0,
+            0.0,
+            3.8,
+            0.0,
+            0.0,
+            -0.2,
+            2.2,
+            0.45,
+            -0.2,
+            7.8,
+            0.25,
+            0.0
+          ],
+          "VectorValues": [
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FFFF00"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            }
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D'T_XingHenSoundNoise'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_3XingStar_D'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_3XingStar_D.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_XingHenSoundNoise02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise02.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_XingHenShakeNoise_D'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_XingHenShakeNoise_D.0"
+            },
+            null
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D'T_3XingStar_D'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_3XingStar_D.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_XingHenSoundNoise'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_XingHenSoundNoise02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise02.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_XingHenShakeNoise_D'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_XingHenShakeNoise_D.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+          },
+          null
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "E572D701-496E6D38-CC53A5BD-C450B0ED",
+            "Function": {
+              "ObjectName": "MaterialFunction'CustomRotator'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.0"
+            }
+          },
+          {
+            "StateId": "E572D701-496E6D38-CC53A5BD-C450B0ED",
+            "Function": {
+              "ObjectName": "MaterialFunction'CustomRotator'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.0"
+            }
+          },
+          {
+            "StateId": "9266BF7A-41122BB3-EC5C82B7-A3E751C3",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat4'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.0"
+            }
+          },
+          {
+            "StateId": "9266BF7A-41122BB3-EC5C82B7-A3E751C3",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat4'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.0"
+            }
+          },
+          {
+            "StateId": "7768B297-4EC31474-4548A2A5-96ACA33E",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_AllUVSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/Effect/EffectMaterial/Function/MF_AllUVSwitch.0"
+            }
+          },
+          {
+            "StateId": "5E1DC205-4CF455B0-EA5B9899-FC9B996B",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterEffectSampleTex'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterEffectSampleTex.0"
+            }
+          },
+          {
+            "StateId": "70CAD34C-4588BC85-BF04D5B2-F852CE28",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_KuroDither'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_KuroDither.0"
+            }
+          },
+          {
+            "StateId": "E1F1078F-4FADACE7-55A61499-571F0D2F",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CommonDissolve'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CommonDissolve.0"
+            }
+          },
+          {
+            "StateId": "70CAD34C-4588BC85-BF04D5B2-F852CE28",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_KuroDither'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_KuroDither.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "9D630943-4B364E6E-E50B818C-F2BFF045",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CommonMaterialEffect'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CommonMaterialEffect.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "QualityLevelsUsedFeatureLevelMask": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_3XingStar_D"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_XingHenSoundNoise"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_XingHenSoundNoise02"
+        }
+      ]
+    }
+  }
+]

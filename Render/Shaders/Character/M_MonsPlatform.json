@@ -1,0 +1,1706 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_MonsPlatform",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "Metallic": {
+        "Expression": null,
+        "OutputIndex": 1,
+        "InputName": "None",
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionBreakMaterialAttributes_0",
+        "UseConstant": false,
+        "Constant": 0.0
+      },
+      "Specular": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionScalarParameter_2",
+        "UseConstant": false,
+        "Constant": 0.5
+      },
+      "Normal": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionLinearInterpolate_1",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionAdd_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Masked",
+      "WorldPositionOffset": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionReroute_2",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "bUsedWithInstancedStaticMeshes": true,
+      "StateId": "B47BBACE-4B75C945-2EBED69E-6497762D",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              135753995956427063,
+              440574345582452634,
+              560882702706097916,
+              782132730590640501,
+              824767100734896112,
+              1165976274990203198,
+              1242520216396108372,
+              1429535545974648714,
+              2163216954538519322,
+              2166427148532236928,
+              2411297726183775143,
+              2453601405643473186,
+              2477191428470771702,
+              2973885132705036855,
+              3383433369708260393,
+              3868140113293548863,
+              3929274268584483569,
+              4474579168683871394,
+              4593338941300325859,
+              4752470197327508086,
+              4778944741053786594,
+              5038696211796161833,
+              5111200826114211325,
+              5321276833375842890,
+              5795571185832579930,
+              5848523959453377062,
+              6106369636075506091,
+              6449838850394204750,
+              7058855003020502801,
+              7098458752246030694,
+              7102497790524134943,
+              7188798770707325649,
+              7897740937494330208,
+              8658352474478732469,
+              8754650770568103311,
+              9220790639382412895,
+              9535746307948666584,
+              9841793335996625764,
+              9891811540552852147,
+              10052408207446364679,
+              10286651308676042536,
+              10467144759585302300,
+              10703600703014411683,
+              10744777677146567914,
+              10848221474482007122,
+              10942294905650750616,
+              11032775030181964333,
+              11133763682612654006,
+              11325408815005382606,
+              11352649955008939058,
+              11699343102385853942,
+              11885940185734382148,
+              12073054762498859266,
+              12258974134584278601,
+              12424198320807894111,
+              12645836212752714670,
+              12714808837813071701,
+              12777577675580858242,
+              12827087446014164981,
+              13011074688188585246,
+              13153002702978425532,
+              13688975152559889793,
+              14604678772484218681,
+              14694500788832977047,
+              14916648307091242375,
+              14926246539671896120,
+              15068784222474891108,
+              15219468514341215222,
+              15837538177658999750,
+              16039114510400782001,
+              16570184522975572712,
+              16695650644772029395,
+              17661384368219892095,
+              17823861773376398717,
+              17862054235802819563,
+              18007775393667401707
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "AOMaskPow",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Roughness",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Fresnel_LeftRight",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SparkIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Wind Noise",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "BakeAO_Min",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Tree Sway Speed",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "TimeLength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SparkTiling",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "GlobalTimeHourForSequence",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LODRoughnessInt",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FurTexTiling",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LandscapeBlendHeightContrast",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "WaterNormalSpeed (S)",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FresnelRim_Smooth",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Fresnel_RimFraction",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Specular",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "DynamicOffset",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_HeightRadio",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Fresnel_RimRange",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "GrassDownColorSize",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "AOScale",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Leave Wind Weight",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LandscapeFadeDistance",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Fresnel_Hard",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SparkSpeed",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SparkPower",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LODBaseMetalIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Main_EmissionPower",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LandscapeBlendHeightTillingR",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FresnelRim_Reverse",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LODBaseRoughnessIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SwitchAuto",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "BrightLenght",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LandscapeBlendHeightTillingG",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LandscapeDepthBias",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "NoiseStrength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LODMetallicInt",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Effect_Progress",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LandscapeFadeHardness",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "WaterPuddleNormalIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "BakeAO",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "UseBaseColorAOrVertexColorR",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "DynamicStartHour",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Base Layer UV Index",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Tree Sway Amount",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "maxBaseClamp",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_Height",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Fresnel_NormalLerp",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Base Layer UVS - U Tiling",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "AoIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FresnelRim_RimRange",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "UseGrassNormal",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_UseObjectScreenUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FlowEffectEdge_Strength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LP_Hardness",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LandBlendMaxDis",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "NormalStrength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "GlobalTimeMinutesForSequence",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Fresnel_RimIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Base Layer UVS - V Tiling",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "WaterNormal_Scale (S)",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "DepthOffset",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FlickerTime",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_NoiseStrength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "NormalIntensity (S)",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FurScale",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Leave Wind Strenght",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "WaterPuddleRoughness",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FurLength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Noise_UseScreenUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LP_Radius",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "WaterPuddleReflectionIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_UseScreenUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "UseWholeDayEmission",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ViewTime",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "39EFE281-469C3A6B-49BA7D8F-8348A6E9",
+              "75853273-4B79A8E1-3222E5B5-8B0106A3",
+              "09CAE8CB-4E0751EE-08BD9A9F-88EF2BF0",
+              "3169D798-4A7A926D-1883B7B1-5F2FE80E",
+              "C4957D09-4BEF2A8A-D7C0A4A0-0EE4A95B",
+              "CF8D179B-4D03F2B0-C78CB8A9-743E4470",
+              "6E4C463E-49A591DD-19B83A9E-FE036F91",
+              "BDFCB2CE-48D97524-96273FB6-77EE0459",
+              "A79ECA52-45997AC2-F59EF58B-028A5152",
+              "56AF6791-4484D5DC-C6B28B9E-16EE9084",
+              "5513AC6C-4E312759-8D2BD58F-4BC60E36",
+              "8573447C-4DA83190-A55921A8-60BF88B2",
+              "75BB8B32-444EF768-E5409096-D7F43027",
+              "475D0238-4CE6E8FE-B716A498-EEB1291A",
+              "CA62BE63-4AE0A7B3-7479FA8C-1E86FBC6",
+              "F0C7F1FA-4CF59770-3812E3A1-B7CF2DEB",
+              "EA3D14A1-4DA59467-75033699-74E7713A",
+              "80E7C4D6-46F9523F-FB583BB8-5897D80F",
+              "DE389184-4F9C6C5D-F04BBD87-AF4CBB8E",
+              "949C9B50-40C2ADB3-B5B25A85-DD062ED3",
+              "EA3CC64D-43D520DB-EAAF8DBC-DB5426AF",
+              "5B9E024A-4E1FF61D-DB9A4E95-CC0B71ED",
+              "5C98B4C8-416731F1-AF4A52A7-1B4EA566",
+              "453A6150-4616F8EF-5FC1A7BC-EB46D417",
+              "48F281B8-4C98C727-2BD2B9B8-23219462",
+              "57980260-47B7858E-990AD693-5D557B26",
+              "207D33B5-43D0C8FD-0856B786-B1CF49E9",
+              "C6F11691-44BF48D5-22FD2983-87B9FEDA",
+              "3EFAD0E6-4499BC0B-C773DB90-22343C1C",
+              "24967CE2-434A1305-B6CF0CA3-FDE6EEDF",
+              "42755FFA-4763AED4-6F2A57BE-1881A75F",
+              "5AC81B14-4F9220B0-EE3B278B-CBBFE50F",
+              "EA30BDC1-454580EE-267C6392-6D634D3E",
+              "71389A43-4F7D2CC4-1A65C986-6582761A",
+              "98A7BC05-4586A08B-BB8E6B81-879A1176",
+              "95587E1C-41532289-A0326FA1-F46D8C23",
+              "2D226751-46D95224-0A0683B1-D482DF1E",
+              "FACAF3DC-47F49A74-541BA880-7C19D50C",
+              "282F4A90-4B782CDD-8FEC23B3-FF4CACDB",
+              "BD3AEE1A-471615C3-19C23BBE-09FFB411",
+              "A9FFF357-49D0BB96-29CE938F-8AC32234",
+              "D2C4CE76-4E150A69-93DE83BD-0FC3C401",
+              "E9D49195-4835077A-C66DB493-31913F3D",
+              "EC57B55D-45CFD0C6-277912BD-01570179",
+              "3955A723-44EBFA90-CBC55ABB-6DF3F4BC",
+              "201C474C-418F5913-416818B9-EFA9071E",
+              "65DC21A8-42F7BA25-1043E885-DF3A9435",
+              "6BD1E4FF-485143C8-F7035591-5021D6C0",
+              "1FD6AA59-4D54923E-406654A3-7A634B6E",
+              "E0FAEF1E-4BF7DE6A-7E8AAFB1-941B057B",
+              "A18E0A4C-43DC3BE0-1B2A268D-595B739B",
+              "A9F54D73-44F0DC6A-CB1DAD96-83A80E40",
+              "F807D860-4372C5FC-07F4D8B1-2008F835",
+              "F3272F70-4B8EC9A7-DD6B37BE-C4BED079",
+              "3B394767-46489F74-928D57BA-2335ED7A",
+              "DD9C7D4F-4576C5E0-D903888B-B278B8F5",
+              "B370E5C2-42499C5B-F008B4B2-94E96CFB",
+              "DC06876E-48E70B63-985EFAA8-6EAFDE47",
+              "30BED846-46B04B1F-4764EBBA-A4BE041A",
+              "1F448301-4CBEC766-BECDBAAB-E566F584",
+              "EDCD3204-448E05B1-8B13C1A7-785AE20F",
+              "BB06BCFC-49550FD2-B0969CA5-9A0FCC99",
+              "EFDB0E08-467D20CE-33F0EE81-596EE94F",
+              "2D1D991F-4FDCB6C9-58E158A1-C3E4AF08",
+              "56BDF67A-415FDCDA-0A8AEDAE-87038999",
+              "56A01651-4B67CF6B-940023BD-FD52BEDB",
+              "AED07C94-45C430C7-A5B6E080-E9E12F98",
+              "EEF81B56-463EE1E9-8088149C-131405FF",
+              "DAE92CC5-4A1FAE24-FDFC8586-83A311F0",
+              "5E8C3F9C-43BFDC3E-9F3D82A5-F4D0D886",
+              "AB91652A-4AE3FB7E-FD20EABF-4C1EDDD2",
+              "EE5368D9-4DD67245-124E0DAF-9F5F925D",
+              "E11B12DE-49B2E1DE-D706C289-95DF3AD4",
+              "FA017633-4348BFB1-6DD643A0-0EBA0919",
+              "67389223-41368880-FE2F8BBA-4B13BF16",
+              "56932839-4E7617AF-413A11B8-74DF6552"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              1147862212646428847,
+              2328728463451294236,
+              3158043082578976751,
+              3532167575268052471,
+              4206688525927946051,
+              6014969975928167784,
+              6190249918917682345,
+              6500804499291026833,
+              8117619791784964172,
+              8390632056723903476,
+              8437075849389414155,
+              8587779186764260690,
+              8894424396395714886,
+              8975021955735037776,
+              10921983444521575878,
+              13749923835082505342,
+              13964622425959425853,
+              17274276553266262384,
+              17919776137362629224,
+              17929497787744523342
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "EffectMaskChannel_Vector",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "BasColorTint",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "BaseColor_颜色调节",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "NoiseUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_ScreenObjectUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FresnelRim_RimColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LP_Offset",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_ColorTint",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "EmissionColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Fresnel_RimColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_UV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_Refine",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "WaterPuddleColorTint",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "AOColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SecondTex_UVSwitch",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Noise_UVSwitch",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LP_Color",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Wind Seed",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Wind Seed 2",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "GrassDownColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "80CFEE98-47EDF8EC-5E376B89-542137C7",
+              "8ACF4FAB-4C5CB274-3848DBBA-A06BB9FD",
+              "93FD9486-4FEFA3F6-1CFBDEB1-76547BE3",
+              "2C8662CD-4B877902-459C0A82-65AF55F7",
+              "CD5E25C2-41BCF343-28C8C7BF-A9430E04",
+              "F552698E-428A7EBF-54D946B4-DBCA0F9C",
+              "A28398CF-40229F02-082D1B86-B6691A6C",
+              "C772F038-4DE77C37-22EEBABE-33807DFF",
+              "97CF3D7B-4DCA1FCC-67A28D97-18CC81B5",
+              "BFF6FD24-435B156F-5A4E86B4-A714E56B",
+              "1F4CFB92-4E248C09-C154DCA5-547EA3B2",
+              "A91DA5E8-458687C9-AE5EFA8E-1D3B6F9F",
+              "3491C7BF-467CA75B-0060EA94-B47C0023",
+              "6C01338A-4DB22963-C1AC06A2-ECCFD536",
+              "3B10B767-4D1A17E1-6CD14589-8765F2B0",
+              "DBABCBBF-4093EB56-37677694-8B94D87E",
+              "13FC72E9-44FD253C-5FF87784-1BCF71F0",
+              "3377D990-47B435F2-896A93AD-5D13F6D2",
+              "E1C46574-4F3DA9F7-E06CBBBF-508CAE50",
+              "6AB35AA3-4DB7E8D8-78E8A280-386AEA9D"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              819139782548792559,
+              1083587111797233054,
+              1333777428292731403,
+              1505669150744972381,
+              2540643206261493720,
+              5558752259947429860,
+              10394057998002236116,
+              14071021150728364356,
+              14438576642403514878,
+              15769868658876209351,
+              15860878707846219426,
+              16961167816913595702,
+              17363689417883911416
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "R_Noise_A_Mask",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "BaseDiffTextureArray",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FurNoiseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "BaseMaskTextureArray",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "BaseNormalTextureArray",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "BaseNormalTexture",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "BaseDiffTexture",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "BaseMaskTexture",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "CommonNoiseMap",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LandscapeBlendHeight",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "RainNormal",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "AOmap",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_RGB",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "0C55C12C-47533F43-9562B19E-50B3AB03",
+              "F67E46BB-45CEF498-642C098C-809FDBDD",
+              "AE537C61-4AA1050C-827985A7-79BBC548",
+              "60E695F7-4FD723C5-4EC85396-426A6346",
+              "682ED4B4-4695DA5D-4DB3A0A9-B14ECC8F",
+              "EDB490EA-429ED85F-5B80F0B3-286862CE",
+              "3ECA7BBD-4E43830A-14B9FC95-7FC95857",
+              "12E4A758-4B82A019-C4436C87-51C09ABD",
+              "AC507033-435C4E51-D15FEAA5-DE86795A",
+              "67DBF55C-48C2D2B8-012CBDA8-7170BC2A",
+              "2620FFFB-4A0EE22B-6E3A64A1-186364F7",
+              "D9234054-4378A18A-988FB2BC-A88916BE",
+              "2B4B6A31-48696263-2C103FAB-7C0B7CF0"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            1.0,
+            0.8,
+            0.0,
+            1.0,
+            4.2,
+            0.4,
+            1.1,
+            1.0,
+            5.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            30.0,
+            0.0,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            4.0,
+            1.0,
+            1.0,
+            0.34,
+            50.0,
+            0.25,
+            5.0,
+            1.0,
+            1.0,
+            1.0,
+            1000.0,
+            0.0,
+            1.0,
+            0.0,
+            0.1,
+            1000.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            3.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.015,
+            1.0,
+            0.0,
+            0.5,
+            1.0,
+            1.0,
+            5.0,
+            0.0,
+            0.0,
+            0.2,
+            0.0,
+            65000.0,
+            0.0,
+            0.0,
+            4.0,
+            1.0,
+            100.0,
+            0.0,
+            1.0,
+            0.15,
+            10.0,
+            1.0,
+            0.14,
+            0.1,
+            1.0,
+            0.0,
+            20.0,
+            0.2,
+            0.0,
+            0.0,
+            0.75
+          ],
+          "VectorValues": [
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "00FFFF"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FFFF00"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "0000FF"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.130136,
+              "G": 0.135633,
+              "B": 0.147027,
+              "A": 1.0,
+              "Hex": "65676B"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FFFF00"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 0.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.5,
+              "G": 0.5,
+              "B": 0.5,
+              "A": 0.0,
+              "Hex": "BCBCBC"
+            },
+            {
+              "R": 0.21875,
+              "G": 0.21875,
+              "B": 0.21875,
+              "A": 1.0,
+              "Hex": "818181"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.022971,
+              "G": 0.024178,
+              "B": 0.065,
+              "A": 0.1,
+              "Hex": "19292B48"
+            },
+            {
+              "R": 0.041,
+              "G": 0.044132,
+              "B": 0.045,
+              "A": 0.486239,
+              "Hex": "7C393B3C"
+            },
+            {
+              "R": 0.036267,
+              "G": 0.109375,
+              "B": 0.00257,
+              "A": 1.0,
+              "Hex": "355D08"
+            }
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D'T_DefaultMaskGreen_M'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultMaskGreen_M.0"
+            },
+            {
+              "ObjectName": "Texture2DArray'T_Default_TexArray'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_Default_TexArray.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+            },
+            {
+              "ObjectName": "Texture2DArray'T_Default_SceneMask_TexArray'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_Default_SceneMask_TexArray.0"
+            },
+            {
+              "ObjectName": "Texture2DArray'T_DefaultNormal_TexArray'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultNormal_TexArray.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultNormal_N'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultNormal_N.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_Default_SceneMask_M'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_Default_SceneMask_M.0"
+            },
+            {
+              "ObjectName": "Texture2D'CommonNoise'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/Monster/CommonNoise.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_FlareNoise_M'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_FlareNoise_M.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_WaterNormal_Rain'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_WaterNormal_Rain.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultMaskWhite_M'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultMaskWhite_M.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_Default_SceneMask_M'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_Default_SceneMask_M.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_DefaultNormal_N'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultNormal_N.0"
+          },
+          {
+            "ObjectName": "Texture2DArray'T_Default_TexArray'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_Default_TexArray.0"
+          },
+          {
+            "ObjectName": "Texture2DArray'T_DefaultNormal_TexArray'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultNormal_TexArray.0"
+          },
+          {
+            "ObjectName": "Texture2DArray'T_Default_SceneMask_TexArray'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_Default_SceneMask_TexArray.0"
+          },
+          {
+            "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+            "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_FlareNoise_M'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_FlareNoise_M.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_WaterNormal_Rain'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_WaterNormal_Rain.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_DefaultMaskGreen_M'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultMaskGreen_M.0"
+          },
+          {
+            "ObjectName": "Texture2D'CommonNoise'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/Monster/CommonNoise.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_DefaultMaskWhite_M'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultMaskWhite_M.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "C59F4744-4928878C-84B06181-276E2170",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_DecodeOutlineNormal'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/MF_DecodeOutlineNormal.0"
+            }
+          },
+          {
+            "StateId": "78E7D41D-45D69D10-7691D5AB-7AAB5DC8",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_MonsterFur'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/Monster/MF_MonsterFur.0"
+            }
+          },
+          {
+            "StateId": "FE67B48A-44296B30-FBF15EBB-0FC10ADF",
+            "Function": {
+              "ObjectName": "MaterialFunction'FlattenNormal'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.0"
+            }
+          },
+          {
+            "StateId": "081AD77F-40B7A75F-32C796BB-0AC76570",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Step'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_Step.0"
+            }
+          },
+          {
+            "StateId": "E289B1B4-42B690F5-A7F369B8-A2AD8CB7",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_FlickerLight'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_FlickerLight.0"
+            }
+          },
+          {
+            "StateId": "E6715291-45CBD5A7-9C2DB096-ABFA19DF",
+            "Function": {
+              "ObjectName": "MaterialFunction'AppendMany'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/AppendMany.0"
+            }
+          },
+          {
+            "StateId": "364F769F-43F0D6E6-6CD3BEA3-92722478",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_VertexColor_Emission'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_VertexColor_Emission.0"
+            }
+          },
+          {
+            "StateId": "0150B7EB-423BCEC8-550E389B-7B5D5506",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_SceneObjBaseLayer'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/SceneObjMatLib/MatLayer/MF_SceneObjBaseLayer.0"
+            }
+          },
+          {
+            "StateId": "2B0BA4FD-4B16E127-722071B6-3FB0FCCC",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_SceneObjBaseUV'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/SceneObjMatLib/MatFunc/MF_SceneObjBaseUV.0"
+            }
+          },
+          {
+            "StateId": "D3F90D2F-499E912E-279FDE92-F315E80C",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_LandscapePCGWaterPuddle'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Scene/MF_LandscapePCGWaterPuddle.0"
+            }
+          },
+          {
+            "StateId": "71028A8D-47BF4037-3A3A0B8A-D7B60E53",
+            "Function": {
+              "ObjectName": "MaterialFunction'ScreenAlignedPixelToPixelUVs'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.0"
+            }
+          },
+          {
+            "StateId": "22D58D0F-45CC84AB-89A3628B-351D83C8",
+            "Function": {
+              "ObjectName": "MaterialFunction'DitherTemporalAA'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DitherTemporalAA.0"
+            }
+          },
+          {
+            "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+            "Function": {
+              "ObjectName": "MaterialFunction'LinearGradient'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.0"
+            }
+          },
+          {
+            "StateId": "1F3C7ECC-4653CAFB-2A6AEE82-B1F2F3A5",
+            "Function": {
+              "ObjectName": "MaterialFunction'CheapContrast'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.0"
+            }
+          },
+          {
+            "StateId": "A7AC4351-481791B4-4BF6C583-33550C66",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_KuroLandscapeDepthFade'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Foliage/MF_KuroLandscapeDepthFade.0"
+            }
+          },
+          {
+            "StateId": "D41086EB-4060B199-2AC3C580-1F54838E",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_SceneObjStandard'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Scene/MF_SceneObjStandard.0"
+            }
+          },
+          {
+            "StateId": "08926BB7-4DEFE11A-99C518AC-26EF5ABB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Bake_VertexAO'",
+              "ObjectPath": "Client/Content/Aki/Scene/Assets/PCG/Shaders/MaterialFunction/MF_Bake_VertexAO.0"
+            }
+          },
+          {
+            "StateId": "F5C2D477-4BA63455-E32B4B96-0D7674B6",
+            "Function": {
+              "ObjectName": "MaterialFunction'BlendAngleCorrectedNormals'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.0"
+            }
+          },
+          {
+            "StateId": "6EB85251-4F8821E1-0A52B382-8A95B76B",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Weather_Rain'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Scene/MF_Weather_Rain.0"
+            }
+          },
+          {
+            "StateId": "2B0BA4FD-4B16E127-722071B6-3FB0FCCC",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_SceneObjBaseUV'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/SceneObjMatLib/MatFunc/MF_SceneObjBaseUV.0"
+            }
+          },
+          {
+            "StateId": "69685D7E-4025AF6F-090FD1A2-3601A433",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_NoiseScale'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/MF_NoiseScale.0"
+            }
+          },
+          {
+            "StateId": "23ECDDFE-4C1DA8E3-52F544B4-485ABB0F",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_UVSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_UVSwitch.0"
+            }
+          },
+          {
+            "StateId": "23ECDDFE-4C1DA8E3-52F544B4-485ABB0F",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_UVSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_UVSwitch.0"
+            }
+          },
+          {
+            "StateId": "3EA91D6A-4E051330-3EC3D08C-EF8ABD28",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_ScreenObjectUV'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_ScreenObjectUV.0"
+            }
+          },
+          {
+            "StateId": "C82F593C-42707700-FD180588-AF98A1EE",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_ColorRefine'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/Effect/EffectMaterial/Function/MF_ColorRefine.0"
+            }
+          },
+          {
+            "StateId": "41366801-4953B936-7513F48C-2DB636F8",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_SimpleTextureUV'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/Effect/EffectMaterial/Function/MF_SimpleTextureUV.0"
+            }
+          },
+          {
+            "StateId": "1F81992B-4F8AE0DB-E09E05A8-CF71155F",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Character_EffectMaterial'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_Character_EffectMaterial.0"
+            }
+          },
+          {
+            "StateId": "B6067F67-4AC0092A-9D7DF581-EBEEE180",
+            "Function": {
+              "ObjectName": "MaterialFunction'HueShift'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/HueShift.0"
+            }
+          },
+          {
+            "StateId": "F1F8C88D-4B5393AE-4B9B25A1-4EBBFCA0",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharMonster_RimLight'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/Monster/MF_CharMonster_RimLight.0"
+            }
+          },
+          {
+            "StateId": "0B09F489-481C0BB0-69188088-DFB82BEC",
+            "Function": {
+              "ObjectName": "MaterialFunction'Wind'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/Wind.0"
+            }
+          },
+          {
+            "StateId": "D749B972-40510EFC-31320AA4-9AAF4388",
+            "Function": {
+              "ObjectName": "MaterialFunction'FlipbookWind'",
+              "ObjectPath": "Engine/Content/ArtTools/RenderToTexture/MaterialFunctions/FlipbookWind.0"
+            }
+          },
+          {
+            "StateId": "2A2C3653-40F19DD4-36815DA6-A2B26811",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_SimpleFlipbookWind'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Foliage/MF_SimpleFlipbookWind.0"
+            }
+          },
+          {
+            "StateId": "CE7BE56C-4CA38BCB-AF6C28B0-04B8921B",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_SimpleTree_Wind'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Foliage/MF_SimpleTree_Wind.0"
+            }
+          }
+        ],
+        "ParameterCollectionInfos": [
+          {
+            "StateId": "87C4A0B7-43AC424A-0987E38D-F2BBCB15",
+            "ParameterCollection": {
+              "ObjectName": "MaterialParameterCollection'MPC_GlobalShaderParameters'",
+              "ObjectPath": "Client/Content/Aki/Render/Data/MPC_GlobalShaderParameters.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "QualityLevelsUsedFeatureLevelMask": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Default_SceneMask_M"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_DefaultColorWhite_D"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_DefaultNormal_N"
+        },
+        {
+          "SamplingScale": 0.953125,
+          "UVChannelIndex": 0,
+          "TextureName": "T_WaterNormal_Rain"
+        }
+      ]
+    }
+  }
+]

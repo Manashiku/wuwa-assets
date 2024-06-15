@@ -1,0 +1,282 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_FaceShadowMesh",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "Normal": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMaterialFunctionCall_0",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 4,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionCustom_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "ShadingModel": "MSM_ToonFace",
+      "ShadingModels": {
+        "ShadingModelField": 16384
+      },
+      "WorldPositionOffset": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionAdd_0",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "PixelDepthOffset": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionFeatureLevelSwitch_2",
+        "UseConstant": false,
+        "Constant": 0.0
+      },
+      "RenderQueue": 190,
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithFaceShadowMesh": true,
+      "bUsedWithMorphTargets": true,
+      "bUseFullPrecision": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "9236F3EB-458A77C2-02E87682-1E979692",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              3358539511090933457,
+              4923445154195490342,
+              5276659332417379588,
+              5747112526427863517,
+              15313983331061259504,
+              18065571299674022307
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "G:HairAOIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SolidShadowStrength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "UseHairColorGradient",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "R:OffsetPosition",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "B:RandomIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "R:RandomPosition",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "EE7F4FA1-403B3395-4274E18F-D653F513",
+              "DEC6FD4B-41A3C053-89D28D98-C18DEADD",
+              "F1D31F78-4531C2ED-AAF28196-301D71C8",
+              "DD4125E9-46881C22-59D5D090-11F17ED8",
+              "3E228634-4441908A-0EBCEB81-829527AD",
+              "78B5A688-44A3E5CA-EE60F7B3-FB6B5FB6"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              3074420424410774127,
+              13189417998567779900,
+              14859309253509588875
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "OffsetIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "OffsetSpeed",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "PositionOffset",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "183534DA-4D0683BF-1ABD5BA8-4C0D35EB",
+              "8D6217FB-4AA2A1CF-89AB39A2-A96EDC6C",
+              "78F9D0D5-467E69B0-6185FDB7-E1C869D4"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              6473248112023213559
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "HairVCTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "09C80AD8-447CFE49-6D59318F-DB4A9D6D"
+            ],
+            "Overrides": [
+              false
+            ]
+          },
+          "ScalarValues": [
+            0.0,
+            0.0,
+            0.5,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "VectorValues": [
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": -0.3,
+              "B": -0.5,
+              "A": 0.0,
+              "Hex": "000000"
+            }
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D'T_DefaultColorWhite_Linear_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_Linear_D.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D'T_DefaultColorWhite_Linear_D'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_Linear_D.0"
+          },
+          null
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "467104A9-4A7915FE-7DE32BBA-4AEFBFAD",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_OctahedronToUnitVector'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/MF_OctahedronToUnitVector.0"
+            }
+          },
+          {
+            "StateId": "7B621562-4FEBAD1A-8FC072A4-9A8735CC",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Character_HairVertexAni'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/NewPBR/Hair/MF_Character_HairVertexAni.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "QualityLevelsUsedFeatureLevelMask": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  }
+]

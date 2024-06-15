@@ -1,0 +1,1384 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_CharacterOutline",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 3,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMaterialFunctionCall_11",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "ShadingModel": "MSM_ToonOutline",
+      "ShadingModels": {
+        "ShadingModelField": 8192
+      },
+      "WorldPositionOffset": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionStaticSwitchParameter_7",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "bEnableSeparateTranslucency": false,
+      "bEnableResponsiveAA": true,
+      "BackFace": true,
+      "RenderQueue": 250,
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithOutline": true,
+      "bSupportsUBInstancing": false,
+      "bUsedWithMorphTargets": true,
+      "bUseFullPrecision": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "bOutputTranslucentVelocity": true,
+      "StateId": "37869772-46AEC8AF-E388CA82-1D03479F",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              497071294804714659,
+              1039682909109703424,
+              1704868985808454668,
+              1728753655793652641,
+              1906245895270251772,
+              2046056757632398692,
+              2414868161077059241,
+              2930353949448855280,
+              3358539511090933457,
+              3396699308981114001,
+              3416436460369249631,
+              3678903300936903272,
+              3994208665184980436,
+              4261528830125183217,
+              5178018507908732355,
+              5267759557346924914,
+              5276659332417379588,
+              5549410464664659583,
+              5747112526427863517,
+              5836115622983000112,
+              5858756318914932682,
+              6089590326538360831,
+              6136331269916903967,
+              6223930582547336774,
+              6256071487290207231,
+              6399417427419281902,
+              6964219109980450798,
+              7293279594800290306,
+              7373724133524117907,
+              8207076688478012360,
+              8710117489856666634,
+              8763009677465707113,
+              9269256916056544414,
+              9909637625178542803,
+              11098479037371048087,
+              11231073021095512663,
+              11646641937071948666,
+              11946066031355979170,
+              12546069670657144768,
+              12857458284290887211,
+              12872300832710975965,
+              13046296479245744370,
+              13105825188533243676,
+              13478983580212699922,
+              14083857732195825716,
+              14454375872182721338,
+              14464850378312486015,
+              14468702602729529128,
+              15313983331061259504,
+              16027902064672436277,
+              17868111747653862251,
+              17995371375066190102,
+              18065571299674022307
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "MinWidth",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Rim_RimRange",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "InnerOutlineMulti",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dither_DitherValue",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_MaskRange",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Outline_UseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "NearAtteunationDistanceMin",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "DistanceEnd",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "G:HairAOIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "CurvatureMax",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "OutlineHoldDistance",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FOVScalePower",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Rim_UseRim",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Rim_Intensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "DistancePower",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "NearAtteunationDistance",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "UseHairColorGradient",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "DistanceScaleLow",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "R:OffsetPosition",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "OutlineClipWidth",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Smooth",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "CurvatureStrength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_UseDissolve",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FarMaxFactor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "DebugWdith",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Outline_EmissionIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dither_DitherValue2",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Progress",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Rim_UseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ScreenBufferResolution",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "DistanceScaleHigh",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "DistanceStart",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "OutlineMax",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "MaxOutlineWidth",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "VertexGMinWidthFactor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ResolutionWidthFactor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "DistanceScalePower",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FOVReduction",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UseScreenUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dither_UseDither",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Multi",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UseMask",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "CurvatureMin",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FarAtteunationDistance",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UseVCMask_Set",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "InnerOutlineOffset",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "OutlineWidth",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "B:RandomIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_Rotation",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ScreenSpaceWidthScale",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dither_UseDither2",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "R:RandomPosition",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "DFA2BC86-4D6FFC90-3F237495-823F7BF8",
+              "2268DE68-4828F6A7-DE85AFB3-0C39E03C",
+              "565CDAAE-4D0131E0-BBA49E82-58F148A7",
+              "E387EAB6-41E64F62-36ECDEBF-43F098F5",
+              "F83D1627-49E862D1-F4FD2DA3-851D7FF8",
+              "7B6C02A1-4709C9FB-63D6D8AA-42C01497",
+              "9BB66657-49234964-D8308295-55B10DF1",
+              "BD64D387-4968D05B-53F760AD-BAEDA6DE",
+              "EE7F4FA1-403B3395-4274E18F-D653F513",
+              "29D07637-4AAEAF38-185F47BE-9D0EB8B0",
+              "86CA00F4-4289401A-0E4DA2AE-B97DB1C4",
+              "33AAD6CC-4081BE07-511798B1-B75B65AB",
+              "A654A36E-4CA971CB-FDC79CA6-5903D995",
+              "3DC8B526-40B93486-EE9BDF82-BE7F0963",
+              "EDFABBE4-478160AD-512862AF-F9B36BCD",
+              "B36FF8B7-411F07E9-EF96ED9A-0CD529C0",
+              "F1D31F78-4531C2ED-AAF28196-301D71C8",
+              "4ADD95EB-4903D053-C3B4B1B4-A09689AE",
+              "DD4125E9-46881C22-59D5D090-11F17ED8",
+              "33999F9B-4E702FDC-DA1EEFAD-9E3AD524",
+              "365492A2-4D0425F1-D53A48AD-AFFD8306",
+              "832FDAD2-42747957-3F102685-11D63E57",
+              "645E7752-4CEE2040-0B59949C-9FC3F2AE",
+              "602470C7-4C1F3968-5ED073BA-70D9C664",
+              "CD0AD66C-45DBA0B9-48096180-F43A6333",
+              "3FC3B077-489226DC-12A136AC-C0D7F521",
+              "26B2A325-4A97A9DC-77E611AC-9F180E8D",
+              "B073658E-485955BF-6C7BFFAB-860D0CD4",
+              "E13ED334-42106D6C-75C3CD91-161CEF61",
+              "7EDAF172-439F894D-2C1205BA-0A19236C",
+              "D847689F-4BD32257-64211C9A-DF5D110B",
+              "4ADABBEE-4E929053-42ECF383-BF6C87D3",
+              "8D81F28D-4FC04CF3-432AC8A1-1F528754",
+              "75E70681-45A7313C-848BE7B0-24DFBAAC",
+              "5CA84977-40E0E80D-83F48E98-A7CA9AB6",
+              "EBEAC76C-471E19CA-298B5D83-5A139998",
+              "A2B7E96B-4931F947-45296F84-1F6C90E7",
+              "22F4E63B-4EE552D3-41E8A096-389C836E",
+              "D43A6C12-44706BF1-261C3D93-C39D4380",
+              "80FC35A5-40815FBB-BA6DCCA0-3F167B83",
+              "EE691790-4FADCE49-E3884796-7AF76601",
+              "573804A7-4993B783-790E9889-265535C4",
+              "31A810A9-478FE6C1-7F64A691-363EC597",
+              "34F2B945-450C8D29-5D4F149A-A0FA9420",
+              "2AB708EB-4EAE6573-8EC24EAC-BF8310B9",
+              "C07C4FED-44C3F757-6AEF66BC-7CAD7CF0",
+              "85D6751E-40F9F51E-97DC0AA4-B9F0A095",
+              "EE7DBCB3-4D67074B-0EB48B94-48D6044F",
+              "3E228634-4441908A-0EBCEB81-829527AD",
+              "FB1C09A3-4A2AD885-95DD5699-C73C60C5",
+              "A7EB89EF-490E8E49-843AC091-6A948F75",
+              "B19D7D51-49CD2636-129A86BC-B5DD101D",
+              "78B5A688-44A3E5CA-EE60F7B3-FB6B5FB6"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              482515713273205414,
+              1138672395326729221,
+              3022210449455684886,
+              3074420424410774127,
+              3641113461531966465,
+              4886349916308179050,
+              6024476109544759735,
+              8519824244984197312,
+              9062160156731237242,
+              10796689145234523585,
+              10960275058037401347,
+              11158129153130907431,
+              11494098169836101510,
+              12915997960205991931,
+              13189417998567779900,
+              15402882800842750663,
+              16662146597386347289,
+              16697406935413146691,
+              17758271301816900268
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "1BaseColorTint",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Emission",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_Speed",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "OffsetIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Rim_RimColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UVSwitch",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_ScaleAndOffset",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Rim_Channel",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "3BaseColorTint",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Outline_EmissionColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "5BaseColorTint",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Channel",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "BaseColorTint",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "OutlineColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "OffsetSpeed",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "4BaseColorTint",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_Color",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "OutlineColorTint",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "2BaseColorTint",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "02D807C1-4661A90A-CF781B94-074A740D",
+              "BB2846EA-455C892D-5ECA908C-25B37783",
+              "24F469A0-42C391CD-C620ACAE-485F0781",
+              "183534DA-4D0683BF-1ABD5BA8-4C0D35EB",
+              "C70116D3-4F84DB72-65B24490-62173E5D",
+              "9045E155-428A5425-E05F879E-1B7119FE",
+              "BAA80096-4AEA722A-7C810BA7-21087E93",
+              "1613E343-4EB93FAB-83B45991-0FE3A5BF",
+              "0AADCD34-402E81D7-D7821096-7F19586E",
+              "054DCC66-4D34CDB0-C3AF0DBC-51F8072D",
+              "D99BAA4F-4F7DD066-3AF4ED87-842DAB6B",
+              "9B722B47-473E83B5-864E40B5-509A0972",
+              "98DA2B9E-4BA00D05-1F1F09AC-C3412FF8",
+              "9990BBB0-4B0CB202-B1BE18A7-98A085F8",
+              "8D6217FB-4AA2A1CF-89AB39A2-A96EDC6C",
+              "723ECE7B-45C9CF36-374B17A5-54DB2B1E",
+              "6680C3BD-48395515-157BF8A8-ED5BADF4",
+              "4FD879AC-4B395F7B-8240E296-B9B59B20",
+              "3AFF035C-4D072AF5-0D9C5AB4-92E16C4E"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              1156811006688612454,
+              3648316319514555744,
+              6473248112023213559,
+              15753465724267079483
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "MainTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_NoiseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "HairVCTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "TypeMask",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "1C989A56-4631B9AD-84409CB8-D44C2A72",
+              "B8834C65-4ABC7031-16D7C087-A1DF5AE3",
+              "09C80AD8-447CFE49-6D59318F-DB4A9D6D",
+              "70032271-4E53B46D-1E8CD2BE-E7D089E7"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            0.02,
+            0.5,
+            500.0,
+            1.2,
+            1.0,
+            0.0,
+            50.0,
+            800.0,
+            0.0,
+            1.0,
+            0.5,
+            0.8,
+            0.0,
+            1.0,
+            1.0,
+            350.0,
+            0.5,
+            1.0,
+            1.0,
+            0.0,
+            0.7,
+            5.0,
+            0.2,
+            0.0,
+            1.0,
+            0.12,
+            1.0,
+            1.2,
+            0.0,
+            1.0,
+            1980.0,
+            -1.0,
+            0.0,
+            1.0,
+            0.23,
+            0.0,
+            1.2,
+            1.0,
+            5.0,
+            0.0,
+            0.0,
+            100.0,
+            0.0,
+            0.0,
+            350.0,
+            0.0,
+            0.5,
+            0.15,
+            0.0,
+            0.0,
+            24.5,
+            0.0,
+            1.0
+          ],
+          "VectorValues": [
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FFFF00"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.5,
+              "G": 0.5,
+              "B": 0.5,
+              "A": 0.0,
+              "Hex": "BCBCBC"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            }
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D'T_DefaultColorBlack_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorBlack_D.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultColorWhite_Linear_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_Linear_D.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultColorBlack_Linear_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorBlack_Linear_D.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_DefaultColorBlack_D'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorBlack_D.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_DefaultColorBlack_Linear_D'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorBlack_Linear_D.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_DefaultColorWhite_Linear_D'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_Linear_D.0"
+          },
+          null
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "C79B907C-41DBD30A-01CC6AB9-A85313D8",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterRim'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterRim.0"
+            }
+          },
+          {
+            "StateId": "D4FFE575-45393BA9-2F8D688B-D7B633A4",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterDissolve'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterDissolve.0"
+            }
+          },
+          {
+            "StateId": "E572D701-496E6D38-CC53A5BD-C450B0ED",
+            "Function": {
+              "ObjectName": "MaterialFunction'CustomRotator'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.0"
+            }
+          },
+          {
+            "StateId": "9266BF7A-41122BB3-EC5C82B7-A3E751C3",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat4'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.0"
+            }
+          },
+          {
+            "StateId": "9266BF7A-41122BB3-EC5C82B7-A3E751C3",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat4'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.0"
+            }
+          },
+          {
+            "StateId": "7768B297-4EC31474-4548A2A5-96ACA33E",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_AllUVSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/Effect/EffectMaterial/Function/MF_AllUVSwitch.0"
+            }
+          },
+          {
+            "StateId": "5E1DC205-4CF455B0-EA5B9899-FC9B996B",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterEffectSampleTex'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterEffectSampleTex.0"
+            }
+          },
+          {
+            "StateId": "70CAD34C-4588BC85-BF04D5B2-F852CE28",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_KuroDither'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_KuroDither.0"
+            }
+          },
+          {
+            "StateId": "6E66A066-42E15F8C-615BABBC-6858ABCC",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterDither'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterDither.0"
+            }
+          },
+          {
+            "StateId": "10A84C97-4F4985B1-A26B24B8-8296DF76",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_OutlineEmission'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_OutlineEmission.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "10A84C97-4F4985B1-A26B24B8-8296DF76",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_OutlineEmission'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_OutlineEmission.0"
+            }
+          },
+          {
+            "StateId": "BF000797-4C432935-A4F006AB-1B637071",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterOutlineEffectTemp'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterOutlineEffectTemp.0"
+            }
+          },
+          {
+            "StateId": "C79B907C-41DBD30A-01CC6AB9-A85313D8",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterRim'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterRim.0"
+            }
+          },
+          {
+            "StateId": "D4FFE575-45393BA9-2F8D688B-D7B633A4",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterDissolve'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterDissolve.0"
+            }
+          },
+          {
+            "StateId": "E572D701-496E6D38-CC53A5BD-C450B0ED",
+            "Function": {
+              "ObjectName": "MaterialFunction'CustomRotator'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.0"
+            }
+          },
+          {
+            "StateId": "9266BF7A-41122BB3-EC5C82B7-A3E751C3",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat4'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.0"
+            }
+          },
+          {
+            "StateId": "9266BF7A-41122BB3-EC5C82B7-A3E751C3",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat4'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.0"
+            }
+          },
+          {
+            "StateId": "7768B297-4EC31474-4548A2A5-96ACA33E",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_AllUVSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/Effect/EffectMaterial/Function/MF_AllUVSwitch.0"
+            }
+          },
+          {
+            "StateId": "5E1DC205-4CF455B0-EA5B9899-FC9B996B",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterEffectSampleTex'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterEffectSampleTex.0"
+            }
+          },
+          {
+            "StateId": "70CAD34C-4588BC85-BF04D5B2-F852CE28",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_KuroDither'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_KuroDither.0"
+            }
+          },
+          {
+            "StateId": "6E66A066-42E15F8C-615BABBC-6858ABCC",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterDither'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterDither.0"
+            }
+          },
+          {
+            "StateId": "10A84C97-4F4985B1-A26B24B8-8296DF76",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_OutlineEmission'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_OutlineEmission.0"
+            }
+          },
+          {
+            "StateId": "AC6891CD-47CEE821-04363B96-73FB3941",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterDissolve_Variation'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterDissolve_Variation.0"
+            }
+          },
+          {
+            "StateId": "70CAD34C-4588BC85-BF04D5B2-F852CE28",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_KuroDither'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_KuroDither.0"
+            }
+          },
+          {
+            "StateId": "70C6200F-4F3F2F4E-4E78CA98-C7C94F37",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterDitherVariation'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterDitherVariation.0"
+            }
+          },
+          {
+            "StateId": "45DF510A-46244252-5494209D-85B8F950",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterOutlineEffect_Variation'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterOutlineEffect_Variation.0"
+            }
+          },
+          {
+            "StateId": "9266BF7A-41122BB3-EC5C82B7-A3E751C3",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat4'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.0"
+            }
+          },
+          {
+            "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+            "Function": {
+              "ObjectName": "MaterialFunction'BreakOutFloat2Components'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+            }
+          },
+          {
+            "StateId": "BF4C35A2-41694269-CB7E7AB8-38AC31E3",
+            "Function": {
+              "ObjectName": "MaterialFunction'RemapValueRange'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions03/Math/RemapValueRange.0"
+            }
+          },
+          {
+            "StateId": "C59F4744-4928878C-84B06181-276E2170",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_DecodeOutlineNormal'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/MF_DecodeOutlineNormal.0"
+            }
+          },
+          {
+            "StateId": "391DDAD7-4E9DCC58-FD37D7B7-2AF07FC2",
+            "Function": {
+              "ObjectName": "MaterialFunction'ScreenResolution'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ScreenResolution.0"
+            }
+          },
+          {
+            "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat2'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+            }
+          },
+          {
+            "StateId": "DE36398D-4742C47A-21AFADA6-0CA5CB70",
+            "Function": {
+              "ObjectName": "MaterialFunction'FOV'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/FOV.0"
+            }
+          },
+          {
+            "StateId": "391DDAD7-4E9DCC58-FD37D7B7-2AF07FC2",
+            "Function": {
+              "ObjectName": "MaterialFunction'ScreenResolution'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ScreenResolution.0"
+            }
+          },
+          {
+            "StateId": "795F1AEE-4C1652F7-AA361083-443492DE",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_LinearSmoothStep'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/NewPBR/Common/MF_LinearSmoothStep.0"
+            }
+          },
+          {
+            "StateId": "DE36398D-4742C47A-21AFADA6-0CA5CB70",
+            "Function": {
+              "ObjectName": "MaterialFunction'FOV'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/FOV.0"
+            }
+          },
+          {
+            "StateId": "795F1AEE-4C1652F7-AA361083-443492DE",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_LinearSmoothStep'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/NewPBR/Common/MF_LinearSmoothStep.0"
+            }
+          },
+          {
+            "StateId": "DCE18182-4D20FB85-AE1F5E8C-6BEEF551",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterID'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/MF_CharacterID.0"
+            }
+          },
+          {
+            "StateId": "54A0065B-4FFF6A54-3648ACB3-1D744CB4",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterID_Info'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/MF_CharacterID_Info.0"
+            }
+          },
+          {
+            "StateId": "7B621562-4FEBAD1A-8FC072A4-9A8735CC",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Character_HairVertexAni'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/NewPBR/Hair/MF_Character_HairVertexAni.0"
+            }
+          },
+          {
+            "StateId": "F4FD34F7-4A8CCE27-7D88B697-E24965A5",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_VertexColorAddtionalOutline'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_VertexColorAddtionalOutline.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction'VectorLength'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction'VectorLength'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction'VectorLength'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "3B1300D3-4B5D563F-7F502B85-53801988",
+            "Function": {
+              "ObjectName": "MaterialFunction'ObjectScale'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.0"
+            }
+          },
+          {
+            "StateId": "E152E4D7-48CE6095-C2EC29AB-72EAA795",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_ClipSpaceOutline'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_ClipSpaceOutline.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "QualityLevelsUsedFeatureLevelMask": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  }
+]

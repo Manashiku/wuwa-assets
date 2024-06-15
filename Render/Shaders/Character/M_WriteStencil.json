@@ -1,0 +1,1920 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_WriteStencil",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "Normal": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMaterialFunctionCall_0",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_3",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "BLEND_Masked",
+      "ShadingModel": "MSM_ToonCommon",
+      "ShadingModels": {
+        "ShadingModelField": 4096
+      },
+      "WorldPositionOffset": {
+        "Expression": null,
+        "OutputIndex": 1,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMaterialFunctionCall_5",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "bEnableSeparateTranslucency": false,
+      "RenderQueue": 190,
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithStencilOnlyWrite": true,
+      "bSupportsUBInstancing": false,
+      "bUsedWithMorphTargets": true,
+      "StateId": "EBA27AD7-4682985F-D54C1AA9-346755A3",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              223360069636553331,
+              490360805312144735,
+              947313949210643326,
+              1039682909109703424,
+              1648119797417711118,
+              1728753655793652641,
+              1906245895270251772,
+              2114378204632095341,
+              2519927894195033277,
+              2846335091356745362,
+              2853905110787768305,
+              3383433369708260393,
+              3949328013016041035,
+              3994208665184980436,
+              3995413874277025169,
+              4261528830125183217,
+              4521596830296348001,
+              4593338941300325859,
+              4618104577054716879,
+              5597155724499570269,
+              5836115622983000112,
+              6089590326538360831,
+              6223930582547336774,
+              6449082435412073737,
+              6492050741256541928,
+              6967978578387292575,
+              6992144754243033896,
+              7038298469514614254,
+              7102497790524134943,
+              7104060543433904558,
+              7224959682694023804,
+              7293279594800290306,
+              7373724133524117907,
+              7563812701074108858,
+              8207076688478012360,
+              8377440347248057973,
+              9211731748605878254,
+              9535746307948666584,
+              9891811540552852147,
+              10208321556488266608,
+              10315308316757784618,
+              10773737415706079223,
+              11133763682612654006,
+              11676021587888104797,
+              11885940185734382148,
+              12258974134584278601,
+              12408114193997503724,
+              12424198320807894111,
+              12477887617361596130,
+              12857458284290887211,
+              12872300832710975965,
+              13046296479245744370,
+              13105825188533243676,
+              14454375872182721338,
+              14591658142593293123,
+              14593960503794502709,
+              14777029388402165381,
+              14916648307091242375,
+              16027902064672436277,
+              16254625412696616242,
+              16570184522975572712,
+              17187348738662892420,
+              17823861773376398717,
+              17995371375066190102,
+              18281683128436083770
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "E_Hologram_JitterStrength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_Inverse",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_MaskIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Rim_RimRange",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "UseLightOffset_Pitch_DYN",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 1
+              },
+              {
+                "Name": "E_Dither_DitherValue",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_MaskRange",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_MaskUVRotation",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_NoiseStrength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LightOffset_Yaw",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ParallaxScale",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FresnelRim_Smooth",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ParallaxHeight",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Rim_UseRim",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "NorWS/ZVector",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Rim_Intensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_UVRotation",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_HeightRadio",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Motion_DitherPow",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_RampPow",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Smooth",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_UseDissolve",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LightOffset_Pitch",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Emission_Intensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_EmissionIntensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Motion_NoiseSpeed",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Base_UseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FresnelRim_Reverse",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Emission_UseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "EyeScale",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dither_DitherValue2",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Progress",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_MotionRange",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Rim_UseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "UseCameraTangent",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "USE Hologram",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "NoiseStrength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Effect_Progress",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "CustomLightDir",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_Opactiy",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_Hight",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_Height",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Motion_DitherMin",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FresnelRim_RimRange",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_UseObjectScreenUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Base_Intensity",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FlowEffectEdge_Strength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_HightOffset",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UseScreenUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dither_UseDither",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Multi",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UseMask",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UseVCMask_Set",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "UseLightOffset_Yaw_DYN",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 1
+              },
+              {
+                "Name": "E_Hologram_HightPow",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "LightPitch(False=30,True=45)_DYN",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 1
+              },
+              {
+                "Name": "Second_NoiseStrength",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_Rotation",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Custom0(Yaw)",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Noise_UseScreenUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Motion_DitherMax",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_UseScreenUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dither_UseDither2",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "UseZVector",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "9E1C5D58-4162BBE1-65B723A2-6917B545",
+              "F8784592-49565A3B-3A84B794-C3C40561",
+              "467C1880-4B5D716C-C82C5DB2-CFED269E",
+              "2268DE68-4828F6A7-DE85AFB3-0C39E03C",
+              "AB9B1638-4A180DB0-DA4AA3A5-8B9FD420",
+              "E387EAB6-41E64F62-36ECDEBF-43F098F5",
+              "F83D1627-49E862D1-F4FD2DA3-851D7FF8",
+              "826B30AB-407FC35C-3A8287A8-D40F51EE",
+              "5096EF94-46A56378-F82281A2-604E8A5A",
+              "FB1A059C-4534F316-EECF84BE-660AE147",
+              "24BDB41D-46E1D33F-0D606EBF-079B0F1C",
+              "CA62BE63-4AE0A7B3-7479FA8C-1E86FBC6",
+              "EBED10FE-4E6E62C1-D242FDA0-0FB939E8",
+              "A654A36E-4CA971CB-FDC79CA6-5903D995",
+              "2513887F-4773D586-54781AB1-A4B879CD",
+              "3DC8B526-40B93486-EE9BDF82-BE7F0963",
+              "53207762-45E8B768-2BE945B5-FA9F4FFE",
+              "DE389184-4F9C6C5D-F04BBD87-AF4CBB8E",
+              "CAB11090-4C042E0C-B2C02694-269D133B",
+              "0C2AC58F-4A36CE5F-21A3AEBF-9A35B2F5",
+              "33999F9B-4E702FDC-DA1EEFAD-9E3AD524",
+              "832FDAD2-42747957-3F102685-11D63E57",
+              "602470C7-4C1F3968-5ED073BA-70D9C664",
+              "84120AAB-4AED56AA-85120C83-49A5A3CE",
+              "07CF19D4-40E0BEC5-BF1F47B2-AD043D8D",
+              "B2C818E5-4ABB029D-A553B689-3A4520BA",
+              "E592D95F-4E096255-398FA995-861185A6",
+              "845760C1-40E7E027-AE8426AD-4DA3D1D4",
+              "42755FFA-4763AED4-6F2A57BE-1881A75F",
+              "7F0DB31B-40A04DB0-EE9CBCAF-CD04C07D",
+              "5BB47B80-4B119CA0-24826D99-936F22C1",
+              "B073658E-485955BF-6C7BFFAB-860D0CD4",
+              "E13ED334-42106D6C-75C3CD91-161CEF61",
+              "CEF4A576-4067D9A9-924C2CB2-132F36AC",
+              "7EDAF172-439F894D-2C1205BA-0A19236C",
+              "FB1E0B28-45D75507-157755AD-7B2D79BF",
+              "E60B5DAA-4FA9AA68-8F61A689-81A602D6",
+              "2D226751-46D95224-0A0683B1-D482DF1E",
+              "282F4A90-4B782CDD-8FEC23B3-FF4CACDB",
+              "34B15381-4FC36F7E-F6F93CAA-2B6BA66A",
+              "DF2BBB6B-4EE397D4-27C201B2-5F7462F1",
+              "B5FB4D22-4E1DB340-69126893-060C270E",
+              "6BD1E4FF-485143C8-F7035591-5021D6C0",
+              "996E1399-4CA1709E-5037338C-FB4A3132",
+              "A9F54D73-44F0DC6A-CB1DAD96-83A80E40",
+              "F3272F70-4B8EC9A7-DD6B37BE-C4BED079",
+              "26B2A325-4A97A9DC-77E611AC-9F180E8D",
+              "3B394767-46489F74-928D57BA-2335ED7A",
+              "967F6D0D-48FE8A21-DA1B5188-B299E1D0",
+              "80FC35A5-40815FBB-BA6DCCA0-3F167B83",
+              "EE691790-4FADCE49-E3884796-7AF76601",
+              "573804A7-4993B783-790E9889-265535C4",
+              "31A810A9-478FE6C1-7F64A691-363EC597",
+              "C07C4FED-44C3F757-6AEF66BC-7CAD7CF0",
+              "555B69AF-47BEB783-D18DFD84-2CC72793",
+              "6CE18089-413A1804-03AD2090-A1033151",
+              "07608052-4331EB8E-A767C0AE-DBAB34F7",
+              "56BDF67A-415FDCDA-0A8AEDAE-87038999",
+              "FB1C09A3-4A2AD885-95DD5699-C73C60C5",
+              "DED438AF-4935CEEC-A961518C-DE889F27",
+              "AB91652A-4AE3FB7E-FD20EABF-4C1EDDD2",
+              "0BDBBC20-43193365-B3E18CA8-CC7AF9A2",
+              "FA017633-4348BFB1-6DD643A0-0EBA0919",
+              "B19D7D51-49CD2636-129A86BC-B5DD101D",
+              "636295DC-45FC9F3C-52A652A6-D37B5CD6"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              1005927374269188906,
+              1138672395326729221,
+              1147862212646428847,
+              2501359492772777746,
+              3022210449455684886,
+              3532167575268052471,
+              3608843860493463445,
+              3641113461531966465,
+              4206688525927946051,
+              4886349916308179050,
+              5467623959840809678,
+              6014969975928167784,
+              6024476109544759735,
+              6500804499291026833,
+              7579458104108561497,
+              8437075849389414155,
+              8519824244984197312,
+              8587779186764260690,
+              8596313173978021847,
+              8892117559585393177,
+              10921983444521575878,
+              11158129153130907431,
+              12671164729362811336,
+              13230654503488726032,
+              13664565902762446014,
+              13749923835082505342,
+              14106660019165034772,
+              14901404554012082735,
+              15781716249461949907,
+              16330333361987511586,
+              16340018498918642867,
+              16514867372317651681,
+              16662146597386347289,
+              18050783496891862270,
+              18190070181103265593
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "E_Hologram_BaseRefine",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Emission",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "EffectMaskChannel_Vector",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_BaseUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_Speed",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "NoiseUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_WPOVector",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Rim_RimColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_ScreenObjectUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_UVSwitch",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_Color",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "FresnelRim_RimColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_ScaleAndOffset",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_ColorTint",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ActorPosition",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_UV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Rim_Channel",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_Refine",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_HightColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_RampColor",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "SecondTex_UVSwitch",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Dissolve_Channel",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_MaskUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Base_Color",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ParallaxOffset",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Noise_UVSwitch",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ZVector",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Motion_Emissive",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_NoiseUV",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "YBasis",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "XBasis",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Motion_Offset",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_Color",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "ZBasis",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Emission_Color",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "6F0F38F0-4572931D-B730169B-B9E7894C",
+              "BB2846EA-455C892D-5ECA908C-25B37783",
+              "80CFEE98-47EDF8EC-5E376B89-542137C7",
+              "4D3B041E-4506FD9E-F58FFF95-8902CA8A",
+              "24F469A0-42C391CD-C620ACAE-485F0781",
+              "2C8662CD-4B877902-459C0A82-65AF55F7",
+              "3A25CCDD-47B310E3-C753DE88-C1F4DDED",
+              "C70116D3-4F84DB72-65B24490-62173E5D",
+              "CD5E25C2-41BCF343-28C8C7BF-A9430E04",
+              "9045E155-428A5425-E05F879E-1B7119FE",
+              "ECB7E501-4D1713EB-34333AB7-081DDF9D",
+              "F552698E-428A7EBF-54D946B4-DBCA0F9C",
+              "BAA80096-4AEA722A-7C810BA7-21087E93",
+              "C772F038-4DE77C37-22EEBABE-33807DFF",
+              "FF5E9618-44C94E6D-AED65493-78F9721E",
+              "1F4CFB92-4E248C09-C154DCA5-547EA3B2",
+              "1613E343-4EB93FAB-83B45991-0FE3A5BF",
+              "A91DA5E8-458687C9-AE5EFA8E-1D3B6F9F",
+              "AFBCB465-4C937511-ABC7DBBE-A3891703",
+              "34A7518D-402E26FE-365BE7AE-C9696C15",
+              "3B10B767-4D1A17E1-6CD14589-8765F2B0",
+              "9B722B47-473E83B5-864E40B5-509A0972",
+              "B7CF0C4E-4C844196-B96CEBB6-68E7AC32",
+              "A8F69346-4E13C899-2C60348F-74052241",
+              "DA99855E-490410D3-14876CAC-B0B9916E",
+              "DBABCBBF-4093EB56-37677694-8B94D87E",
+              "4E86DDF9-4C4F9255-BB65E582-D3C21E14",
+              "11BF6F90-46169E89-7B88D78A-74BDDD20",
+              "E242856B-477DDF1C-359C0092-BA7D2ADE",
+              "51D67A32-43675D87-16348A92-AF101E1B",
+              "8AF30A3B-4D1C7C6B-343273B4-7DE8C388",
+              "223BA115-46E81F9D-C981BD98-3CBB5CA1",
+              "6680C3BD-48395515-157BF8A8-ED5BADF4",
+              "1EAFC372-45CF48BD-50B28186-5BFAE804",
+              "C379B7ED-4A9B2C22-7D02F3BF-F02C3BF2"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "RuntimeEntries": {
+            "NameHashes": [
+              819139782548792559,
+              3648316319514555744,
+              4021884499931382109,
+              8198569358239374743,
+              9567603482054733493,
+              15523972120456024984,
+              17069150460046929481,
+              17363689417883911416
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "R_Noise_A_Mask",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Tex_NoiseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "EM",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Mask",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_NoiseTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_MainTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "E_Hologram_MaskTex",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              },
+              {
+                "Name": "Second_RGB",
+                "Association": "GlobalParameter",
+                "Index": -1,
+                "Flags": 0
+              }
+            ],
+            "ExpressionGuids": [
+              "0C55C12C-47533F43-9562B19E-50B3AB03",
+              "B8834C65-4ABC7031-16D7C087-A1DF5AE3",
+              "E5DD0983-43EC12E3-EB3DF48C-FA1C3293",
+              "FDD53760-463990F8-D3FF71A4-F7CF5AF1",
+              "E67F3BB5-493F2A3D-24104F8E-8CBC054E",
+              "FF1F61CD-4DA3191F-F07F5782-9B8A3F7E",
+              "5D4FE6C4-45BD1D55-0EAFFB94-BE78E3E4",
+              "2B4B6A31-48696263-2C103FAB-7C0B7CF0"
+            ],
+            "Overrides": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "ScalarValues": [
+            1500.0,
+            1.0,
+            0.0,
+            0.5,
+            0.0,
+            1.2,
+            1.0,
+            0.0,
+            0.15,
+            0.0,
+            1.0,
+            0.0,
+            0.25,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.5,
+            1.0,
+            0.0,
+            5.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8,
+            1.2,
+            0.0,
+            0.5,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.09,
+            0.0,
+            0.0,
+            -0.1,
+            5.0,
+            0.0,
+            0.0,
+            0.2,
+            0.0,
+            0.0,
+            0.0,
+            100.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.15,
+            0.0,
+            0.0,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "VectorValues": [
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 0.5,
+              "Hex": "7FFFFFFF"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FFFF00"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "0000FF"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FFFF00"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 100.0,
+              "A": 1.0,
+              "Hex": "0000FF"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FFFF00"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 0.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 0.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FFFF00"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 1.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 0.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            }
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D'T_DefaultMaskGreen_M'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultMaskGreen_M.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_HDMF_EM'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/Eyes/T_HDMF_EM.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultMaskGreen_M'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultMaskGreen_M.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_Caustic_001'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_Caustic_001.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+              "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D'T_DefaultColorWhite_D'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultColorWhite_D.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_DefaultMaskGreen_M'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_DefaultMaskGreen_M.0"
+          },
+          null,
+          {
+            "ObjectName": "Texture2D'BlendFunc_DefBlend'",
+            "ObjectPath": "Engine/Content/EngineMaterials/BlendFunc_DefBlend.0"
+          },
+          {
+            "ObjectName": "Texture2D'BlendFunc_DefBase'",
+            "ObjectPath": "Engine/Content/EngineMaterials/BlendFunc_DefBase.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_Caustic_001'",
+            "ObjectPath": "Client/Content/Aki/Render/Common/T_Caustic_001.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_HDMF_EM'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/CommonTexture/Eyes/T_HDMF_EM.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_EV_BlankWhite_01'",
+            "ObjectPath": "Engine/Content/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "C79B907C-41DBD30A-01CC6AB9-A85313D8",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterRim'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterRim.0"
+            }
+          },
+          {
+            "StateId": "70CAD34C-4588BC85-BF04D5B2-F852CE28",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_KuroDither'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_KuroDither.0"
+            }
+          },
+          {
+            "StateId": "6E66A066-42E15F8C-615BABBC-6858ABCC",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterDither'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterDither.0"
+            }
+          },
+          {
+            "StateId": "D4FFE575-45393BA9-2F8D688B-D7B633A4",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterDissolve'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterDissolve.0"
+            }
+          },
+          {
+            "StateId": "E572D701-496E6D38-CC53A5BD-C450B0ED",
+            "Function": {
+              "ObjectName": "MaterialFunction'CustomRotator'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.0"
+            }
+          },
+          {
+            "StateId": "9266BF7A-41122BB3-EC5C82B7-A3E751C3",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat4'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.0"
+            }
+          },
+          {
+            "StateId": "9266BF7A-41122BB3-EC5C82B7-A3E751C3",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat4'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.0"
+            }
+          },
+          {
+            "StateId": "7768B297-4EC31474-4548A2A5-96ACA33E",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_AllUVSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/Effect/EffectMaterial/Function/MF_AllUVSwitch.0"
+            }
+          },
+          {
+            "StateId": "5E1DC205-4CF455B0-EA5B9899-FC9B996B",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterEffectSampleTex'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterEffectSampleTex.0"
+            }
+          },
+          {
+            "StateId": "89C287A9-4DC181FC-10383E94-8290F79C",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVertexMotionOffset'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVertexMotionOffset.0"
+            }
+          },
+          {
+            "StateId": "904EF313-46CADF3C-4A79EFA1-ECFEFF7D",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterColorChange'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterColorChange.0"
+            }
+          },
+          {
+            "StateId": "69685D7E-4025AF6F-090FD1A2-3601A433",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_NoiseScale'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/MF_NoiseScale.0"
+            }
+          },
+          {
+            "StateId": "23ECDDFE-4C1DA8E3-52F544B4-485ABB0F",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_UVSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_UVSwitch.0"
+            }
+          },
+          {
+            "StateId": "23ECDDFE-4C1DA8E3-52F544B4-485ABB0F",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_UVSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_UVSwitch.0"
+            }
+          },
+          {
+            "StateId": "3EA91D6A-4E051330-3EC3D08C-EF8ABD28",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_ScreenObjectUV'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_ScreenObjectUV.0"
+            }
+          },
+          {
+            "StateId": "C82F593C-42707700-FD180588-AF98A1EE",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_ColorRefine'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/Effect/EffectMaterial/Function/MF_ColorRefine.0"
+            }
+          },
+          {
+            "StateId": "41366801-4953B936-7513F48C-2DB636F8",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_SimpleTextureUV'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/Effect/EffectMaterial/Function/MF_SimpleTextureUV.0"
+            }
+          },
+          {
+            "StateId": "1F81992B-4F8AE0DB-E09E05A8-CF71155F",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Character_EffectMaterial'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_Character_EffectMaterial.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "6740CAA4-43A9105D-939A71BB-C8BC94DB",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVariationSwitch'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVariationSwitch.0"
+            }
+          },
+          {
+            "StateId": "89C287A9-4DC181FC-10383E94-8290F79C",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVertexMotionOffset'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVertexMotionOffset.0"
+            }
+          },
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "D8591F05-4FCE23CC-8CF24489-76D3C8B2",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Disturbance_Base'",
+              "ObjectPath": "Client/Content/Aki/Effect/Materials/Mat/Function/MF_Disturbance_Base.0"
+            }
+          },
+          {
+            "StateId": "89C287A9-4DC181FC-10383E94-8290F79C",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterVertexMotionOffset'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterVertexMotionOffset.0"
+            }
+          },
+          {
+            "StateId": "26EEBBE8-4601FD00-4CE72586-3070E18A",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_TextureRefine'",
+              "ObjectPath": "Client/Content/Aki/Effect/Materials/Mat/Function/MF_TextureRefine.0"
+            }
+          },
+          {
+            "StateId": "E572D701-496E6D38-CC53A5BD-C450B0ED",
+            "Function": {
+              "ObjectName": "MaterialFunction'CustomRotator'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.0"
+            }
+          },
+          {
+            "StateId": "E1A9192D-44DA40ED-CB778F83-5508DED4",
+            "Function": {
+              "ObjectName": "MaterialFunction'Kuro_Blend_Overlay'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/Kuro_Blend_Overlay.0"
+            }
+          },
+          {
+            "StateId": "E572D701-496E6D38-CC53A5BD-C450B0ED",
+            "Function": {
+              "ObjectName": "MaterialFunction'CustomRotator'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.0"
+            }
+          },
+          {
+            "StateId": "6371F5F7-4F9454CE-E054578D-5376E0B9",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_HologramEffect'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_HologramEffect.0"
+            }
+          },
+          {
+            "StateId": "5C305091-42A9FEF1-F09F6085-67244F9C",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_CharacterMaterialEffect'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/CharacterEffect/MF_CharacterMaterialEffect.0"
+            }
+          },
+          {
+            "StateId": "467104A9-4A7915FE-7DE32BBA-4AEFBFAD",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_OctahedronToUnitVector'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/MF_OctahedronToUnitVector.0"
+            }
+          },
+          {
+            "StateId": "057104BE-419EB8A2-40A62A8C-3874BCD2",
+            "Function": {
+              "ObjectName": "MaterialFunction'InverseTransformMatrix'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/InverseTransformMatrix.0"
+            }
+          },
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction'SafeNormalize'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "972EFAAA-4C1C2B16-4BC287A2-B11C51DA",
+            "Function": {
+              "ObjectName": "MaterialFunction'SafeNormalize'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.0"
+            }
+          },
+          {
+            "StateId": "B404464D-42313D79-E67091AA-AD61BE51",
+            "Function": {
+              "ObjectName": "MaterialFunction'CreateThirdOrthogonalVector'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector.0"
+            }
+          },
+          {
+            "StateId": "4A0C0323-41EFBE0F-65260B88-B780A3F3",
+            "Function": {
+              "ObjectName": "MaterialFunction'TransformToZVector'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/TransformToZVector.0"
+            }
+          },
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "C330DE33-4A86FAB2-7255B1AC-3A6AC1B4",
+            "Function": {
+              "ObjectName": "MaterialFunction'Transform3x3Matrix'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.0"
+            }
+          },
+          {
+            "StateId": "77CF8752-45DFDAB9-3CD7E19D-AF5CD63F",
+            "Function": {
+              "ObjectName": "MaterialFunction'DegreesToRadians'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Math/DegreesToRadians.0"
+            }
+          },
+          {
+            "StateId": "77CF8752-45DFDAB9-3CD7E19D-AF5CD63F",
+            "Function": {
+              "ObjectName": "MaterialFunction'DegreesToRadians'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Math/DegreesToRadians.0"
+            }
+          },
+          {
+            "StateId": "E6A85460-4E707DD6-EBF457B4-A3E80A43",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat3'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.0"
+            }
+          },
+          {
+            "StateId": "2E192370-44227F2E-60D8F8B1-6363ED2D",
+            "Function": {
+              "ObjectName": "MaterialFunction'MK_Kuro_SinCos'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MK_Kuro_SinCos.0"
+            }
+          },
+          {
+            "StateId": "2E192370-44227F2E-60D8F8B1-6363ED2D",
+            "Function": {
+              "ObjectName": "MaterialFunction'MK_Kuro_SinCos'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MK_Kuro_SinCos.0"
+            }
+          },
+          {
+            "StateId": "AC6684C0-46EF6082-16873AA5-D8E1BC1E",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Kuro_EulerToForward'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_Kuro_EulerToForward.0"
+            }
+          },
+          {
+            "StateId": "77CF8752-45DFDAB9-3CD7E19D-AF5CD63F",
+            "Function": {
+              "ObjectName": "MaterialFunction'DegreesToRadians'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Math/DegreesToRadians.0"
+            }
+          },
+          {
+            "StateId": "77CF8752-45DFDAB9-3CD7E19D-AF5CD63F",
+            "Function": {
+              "ObjectName": "MaterialFunction'DegreesToRadians'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Math/DegreesToRadians.0"
+            }
+          },
+          {
+            "StateId": "E6A85460-4E707DD6-EBF457B4-A3E80A43",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat3'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.0"
+            }
+          },
+          {
+            "StateId": "2E192370-44227F2E-60D8F8B1-6363ED2D",
+            "Function": {
+              "ObjectName": "MaterialFunction'MK_Kuro_SinCos'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MK_Kuro_SinCos.0"
+            }
+          },
+          {
+            "StateId": "2E192370-44227F2E-60D8F8B1-6363ED2D",
+            "Function": {
+              "ObjectName": "MaterialFunction'MK_Kuro_SinCos'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MK_Kuro_SinCos.0"
+            }
+          },
+          {
+            "StateId": "AC6684C0-46EF6082-16873AA5-D8E1BC1E",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Kuro_EulerToForward'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Common/MF_Kuro_EulerToForward.0"
+            }
+          },
+          {
+            "StateId": "5533BFA3-47079C2B-5B31CD93-A2D604CA",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Character_LightingFactors'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/MF_Character_LightingFactors.0"
+            }
+          },
+          {
+            "StateId": "E6A85460-4E707DD6-EBF457B4-A3E80A43",
+            "Function": {
+              "ObjectName": "MaterialFunction'MakeFloat3'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.0"
+            }
+          },
+          {
+            "StateId": "14E0439C-4C450208-103A7BB5-BBCC5516",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_EyeParallaxOcclusionMapping'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/NewPBR/Eye/MF_EyeParallaxOcclusionMapping.0"
+            }
+          },
+          {
+            "StateId": "04100DA3-48A87C08-5362DEAC-A2CAA304",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_EyeScale'",
+              "ObjectPath": "Client/Content/Aki/Render/Shaders/MaterialFunction/Toon/MF_EyeScale.0"
+            }
+          }
+        ],
+        "ParameterCollectionInfos": [
+          {
+            "StateId": "87C4A0B7-43AC424A-0987E38D-F2BBCB15",
+            "ParameterCollection": {
+              "ObjectName": "MaterialParameterCollection'MPC_GlobalShaderParameters'",
+              "ObjectPath": "Client/Content/Aki/Render/Data/MPC_GlobalShaderParameters.0"
+            }
+          },
+          {
+            "StateId": "1A6B5811-43528A6C-6AFB37B5-DF037E63",
+            "ParameterCollection": {
+              "ObjectName": "MaterialParameterCollection'EyesParameter'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Chun/EyeAnimation/EyesParameter.0"
+            }
+          }
+        ],
+        "DynamicParameterNames": [
+          "Base Offset",
+          "Mask Offset",
+          "Noise Strength Multiply",
+          "Param4"
+        ],
+        "QualityLevelsUsed": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "QualityLevelsUsedFeatureLevelMask": [
+          4294967293,
+          0,
+          0,
+          0
+        ]
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 0.99993896,
+          "UVChannelIndex": 0,
+          "TextureName": "T_DefaultMaskGreen_M"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_HDMF_EM"
+        }
+      ]
+    }
+  }
+]
